@@ -22,7 +22,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html {
+      width: 100%;
+    overflow-x: hidden;
+}
 body {
     width: 100%;
     font-family: 'Poppins', sans-serif;
@@ -51,7 +54,8 @@ header.scrolled {
 
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 100%;
+    position: relative;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -1384,7 +1388,8 @@ footer::before {
 @media (max-width: 576px) {
     .container {
         width: 100%;
-        padding: 0 15px;
+        padding: 0 30px;
+        overflow-x: hidden;
     }
 
     .hero {
