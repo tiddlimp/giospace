@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>GioSpace - Soluções em Containers Modulares</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-element" style="width: 20px; height: 20px; top: 20%; left: 10%; animation-delay: 0s; animation-duration: 20s;"></div>
+        <div class="floating-element" style="width: 30px; height: 30px; top: 50%; left: 80%; animation-delay: 2s; animation-duration: 25s;"></div>
+        <div class="floating-element" style="width: 15px; height: 15px; top: 70%; left: 30%; animation-delay: 4s; animation-duration: 15s;"></div>
+        <div class="floating-element" style="width: 25px; height: 25px; top: 30%; left: 60%; animation-delay: 1s; animation-duration: 30s;"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <img src="img/Design sem nome (70).png" alt="GioSpace Logo">
+                <h1>Gio<span>Space</span></h1>
+            </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#features">Diferenciais</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fas fa-info-circle"></i> Sobre</a></li>
+            <li><a href="#services"><i class="fas fa-cogs"></i> Serviços</a></li>
+            <li><a href="#features"><i class="fas fa-star"></i> Diferenciais</a></li>
+            <li><a href="#portfolio"><i class="fas fa-briefcase"></i> Portfólio</a></li>
+            <li><a href="#gallery"><i class="fas fa-images"></i> Galeria</a></li>
+            <li><a href="#testimonials"><i class="fas fa-comments"></i> Depoimentos</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contato</a></li>
+        </ul>
+    </div>
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Soluções em Containers Modulares</h2>
+                <p>A GioSpace oferece as melhores soluções em locação de containers para escritório, almoxarifado e vestiário, com qualidade e preço justo.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn">Solicitar Orçamento</a>
+                    <a href="#services" class="btn btn-outline">Nossos Serviços</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>Sobre Nós</h2>
+                <p>Conheça a GioSpace e nossa trajetória no mercado de locação de containers</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text animate__animated animate__fadeInLeft" style="text-align: justify;">
+                    <h3>Transformando Espaços, Construindo Soluções</h3>
+                    <p>A GioSpace nasceu da necessidade de oferecer soluções práticas, econômicas e sustentáveis para empresas que precisam de espaços adicionais sem a burocracia e custo de construções tradicionais.</p>
+                    <p>Com mais de 10 anos de experiência no mercado, nos especializamos na locação de containers adaptados para diversos usos, sempre com foco na qualidade, segurança e satisfação dos nossos clientes.</p>
+                    <p>Nossa missão é proporcionar espaços funcionais e personalizados que atendam às necessidades específicas de cada cliente, com agilidade e excelência no atendimento.</p>
+                    <a href="#contact" class="btn">Entre em Contato</a>
+                </div>
+                <div class="about-image animate__animated animate__fadeInRight">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal (2).png" alt="Sobre a GioSpace">
+                    <div class="about-badge">
+                        <span>10+</span>
+                        <span>Anos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Conheça nossas soluções em containers modulares</p>
+            </div>
+            <div class="services-container">
+                <div class="service-card animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Container Escritório</h3>
+                    <p>Containers adaptados como escritórios modulares, com isolamento térmico e acústico, instalação elétrica, ar-condicionado e layout personalizado.</p>
+                    <a href="#" class="btn" style="display: none;">Saiba Mais</a>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <div class="service-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3>Container Almoxarifado</h3>
+                    <p>Soluções seguras e organizadas para armazenamento de materiais e equipamentos, com prateleiras, organização interna e controle de acesso.</p>
+                    <a href="#" class="btn" style="display: none;">Saiba Mais</a>
+                </div>
+                <div class="service-card animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3>Container Vestiário</h3>
+                    <p>Vestiários completos com banheiros, armários e áreas de descanso, ideais para canteiros de obras e eventos temporários.</p>
+                    <a href="#" class="btn" style="display: none;">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Diferenciais</h2>
+                <p>O que nos torna a melhor escolha para suas necessidades</p>
+            </div>
+            <div class="features-container">
+                <div class="feature-card animate__animated animate__fadeInUp" data-wow-delay="0.1s">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Rápida Instalação</h3>
+                    <p>Entregamos e instalamos em até 48 horas, com mínimo de preparo do terreno.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp" data-wow-delay="0.2s">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Sustentabilidade</h3>
+                    <p>Materiais e processos ecologicamente corretos, reduzindo impacto ambiental.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp" data-wow-delay="0.3s">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Customização</h3>
+                    <p>Projetos personalizados para atender às necessidades específicas de cada cliente.</p>
+                </div>
+                <div class="feature-card animate__animated animate__fadeInUp" data-wow-delay="0.4s">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Qualidade Garantida</h3>
+                    <p>Materiais de primeira linha e mão de obra especializada com garantia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section stats">
+        <div class="container">
+            <div class="stats-container">
+                <div class="stat-item animate__animated animate__fadeIn" data-wow-delay="0.1s">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-text">Projetos Entregues</div>
+                </div>
+                <div class="stat-item animate__animated animate__fadeIn" data-wow-delay="0.2s">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-text">Clientes Satisfeitos</div>
+                </div>
+                <div class="stat-item animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-text">Anos de Experiência</div>
+                </div>
+                <div class="stat-item animate__animated animate__fadeIn" data-wow-delay="0.4s">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-text">Horas de Resposta</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section" id="portfolio">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Projetos</h2>
+                <p>Confira alguns de nossos trabalhos realizados</p>
+            </div>
+            <div class="portfolio-container">
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.1s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal.png" alt="Container Escritório">
+                    <div class="portfolio-overlay">
+                        <h3>Escritório Modular</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1591825729269-caeb344f6df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.2s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal (1).png" alt="Container Almoxarifado">
+                    <div class="portfolio-overlay">
+                        <h3>Almoxarifado Industrial</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.3s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal (2).png" alt="Container Vestiário">
+                    <div class="portfolio-overlay">
+                        <h3>Vestiário para Obra</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.4s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal (1).png" alt="Container Escritório Executivo">
+                    <div class="portfolio-overlay">
+                        <h3>Escritório Executivo</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.5s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal (2).png" alt="Container Sala de Reunião">
+                    <div class="portfolio-overlay">
+                        <h3>Sala de Reuniões</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1600566752229-250d0e0f4c5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item animate__animated animate__fadeIn" data-wow-delay="0.6s">
+                    <img src="img/Miniatura para Youtube - Capa de Vídeo para canal.png" alt="Container Sanitário">
+                    <div class="portfolio-overlay">
+                        <h3>Sanitários Modulares</h3>
+                        <div class="portfolio-links">
+                            <a href="#" class="view-image" data-image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"><i class="fas fa-search-plus"></i></a>
+                            <a href="#"><i class="fas fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Slider Section -->
+    <section class="section gallery-slider" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeria de Projetos</h2>
+                <p>Veja nossos containers em detalhes</p>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Container 1">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Container 2">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Container 3">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Container 4">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Container 5">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Navigation -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>Depoimentos</h2>
+                <p>O que nossos clientes dizem sobre nossos serviços</p>
+            </div>
+            <div class="testimonials-container">
+                <div class="testimonial animate__animated animate__fadeInLeft">
+                    <div class="testimonial-content">
+                        <p>"A GioSpace nos forneceu containers de excelente qualidade para nosso canteiro de obras. O atendimento foi impecável e a entrega dentro do prazo combinado. Recomendo!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Silva">
+                        <div class="author-info">
+                            <h4>Carlos Silva</h4>
+                            <p>Engenheiro - Construtora ABC</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial animate__animated animate__fadeInRight">
+                    <div class="testimonial-content">
+                        <p>"Precisávamos de um escritório temporário para nossa equipe e a solução da GioSpace foi perfeita. O container veio totalmente equipado e montado, só precisamos ligar na energia. Excelente custo-benefício."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ana Paula Oliveira">
+                        <div class="author-info">
+                            <h4>Ana Paula Oliveira</h4>
+                            <p>Gerente de Projetos - TechSolutions</p>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Entre em Contato</h2>
+                <p>Tire suas dúvidas ou solicite um orçamento sem compromisso</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info animate__animated animate__fadeInLeft">
+                    <h3>Fale Conosco</h3>
+                    <p>Estamos prontos para atender suas necessidades com as melhores soluções em containers modulares.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Endereço</h4>
+                                <p>Av. das Indústrias, 1000 - São Paulo/SP</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Telefone</h4>
+                                <p>(11) 1234-5678</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contato@giospace.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form animate__animated animate__fadeInRight">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Serviço de Interesse</label>
+                            <select id="service" class="form-control">
+                                <option value="">Selecione um serviço</option>
+                                <option value="escritorio">Container Escritório</option>
+                                <option value="almoxarifado">Container Almoxarifado</option>
+                                <option value="vestiario">Container Vestiário</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Sobre a GioSpace</h3>
+                    <p>Especializada em locação de containers modulares para escritório, almoxarifado e vestiário, oferecendo soluções práticas e econômicas.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Links Úteis</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">Sobre Nós</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#features">Diferenciais</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Nossos Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Container Escritório</a></li>
+                        <li><a href="#">Container Almoxarifado</a></li>
+                        <li><a href="#">Container Vestiário</a></li>
+                        <li><a href="#">Projetos Personalizados</a></li>
+                        <li><a href="#">Manutenção e Suporte</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Assine nossa newsletter para receber novidades e promoções.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email" class="form-control" required>
+                        <button type="submit" class="btn">Assinar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GioSpace - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Image Modal -->
+    <div class="image-modal" id="imageModal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div class="caption"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
